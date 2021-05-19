@@ -20,8 +20,4 @@ head(addr_count)
 
 library("treemap")
 
-
-
-par(family="AppleGothic")
-
-treemap(addr_count, index = ".", vSize = "Freq", title = "종로구 동별 치킨집 분표", fontfamily.labels="AppleGothic")
+treemap(addr_count, index = ".", vSize = "Freq", title = "Jongno-gu Chicken Treemap", fontfamily.labels="AppleGothic")
